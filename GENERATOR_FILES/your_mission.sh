@@ -5,4 +5,4 @@ echo "then, run accept.sh for more information";
 echo "#!/bin/bash" > accept.sh;
 echo "dirname=${dirname}" >> accept.sh;
 echo "enemy=${enemy}" >> accept.sh;
-cat GENERATOR_FILES/mission_self_destruct.sh >> accept.sh;
+cat GENERATOR_FILES/mission_one.sh >> accept.sh;

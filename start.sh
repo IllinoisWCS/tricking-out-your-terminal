@@ -40,7 +40,7 @@ if [ $team -eq 0 ]; then
 elif [ $team -eq 1 ]; then
     join_team red blue
 elif [ $team -eq 2 ]; then
-    join-team blue purple
+    join_team blue purple
 else
     echo "error, invalid choice.";
 fi
