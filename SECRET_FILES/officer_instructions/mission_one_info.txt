@@ -1,0 +1,17 @@
+the group's file should be in the format
+
+1. first commonality
+2. second commonality
+3. difference
+
+if this is the case, then give them the following instructions:
+
+rename the file to a nickname for your group (please check that this worked)
+then navigate back to the root directory for the repo and run get_mission_two.sh
+
+if this is not the case, then try to help them resolve the issue. here is the code that they should have run, for reference:
+
+touch awesome_group.txt
+echo "1. first commonality" >> awesome_group.txt
+echo "2. second commonality" >> awesome_group.txt
+echo "3. difference" >> awesome_group.txt
