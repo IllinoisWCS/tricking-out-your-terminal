@@ -9,7 +9,7 @@ function welcome_to_hq {
     echo "teamname=${teamname}" >> $dirname/your_mission.sh;
     echo "enemy=${enemy}" >> $dirname/your_mission.sh;
     echo "dirname=${dirname}" >> $dirname/your_mission.sh;
-    cat SECRET_FILES/your_mission.sh >> $dirname/your_mission.sh;
+    cat GENERATOR_FILES/your_mission.sh >> $dirname/your_mission.sh;
 }
 
 function join_team {

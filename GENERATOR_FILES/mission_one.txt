@@ -12,4 +12,4 @@ then use command line utilities to write the things you found in common/differen
 
 then flag down a wcs officer and show them this file by displaying its contents using a command line utility
 
-officers: please refer to SECRET_FILES/officer_instructions/mission_one_info.txt
+officers: please refer to GENERATOR_FILES/officer_instructions/mission_one_info.txt

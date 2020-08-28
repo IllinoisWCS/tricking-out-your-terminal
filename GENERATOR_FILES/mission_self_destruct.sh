@@ -7,7 +7,7 @@ echo "you have accepted this mission. let us begin.";
 
 mkdir mission_one;
 
-cat SECRET_FILES/mission_one.txt >> mission_one/instructions.txt;
+cat GENERATOR_FILES/mission_one.txt >> mission_one/instructions.txt;
 
 echo "destroy this message, then";
 echo "navigate into the mission_one directory" ;
