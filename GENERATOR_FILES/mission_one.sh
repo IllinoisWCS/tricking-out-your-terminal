@@ -16,3 +16,5 @@ echo "and display the file contents in the command line";
 echo "this message will now self destruct";
 
 rm accept.sh;
+
+cat GENERATOR_FILES/mission_two.sh >> get_mission_two.sh;

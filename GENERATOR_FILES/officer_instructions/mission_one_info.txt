@@ -16,6 +16,8 @@ cd ..
 sh get_mission_two.sh on mac/linux
 bash get_mission_two.sh on windows
 
+once this is completed, give them the password to continue: onwards
+
 if this is not the case, then try to help them resolve the issue. here is the code that they should have run, for reference:
 
 touch awesome_group.txt
