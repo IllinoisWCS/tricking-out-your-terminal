@@ -27,6 +27,7 @@ function join_team {
 }
 
 echo "hello, and welcome to wcs explorations' tricking our your terminal workshop.";
+echo "if at any point you messed up and need to start over from the beginning, run clean.sh";
 echo "to begin, choose your team:";
 echo "0 - purple";
 echo "1 - red";
