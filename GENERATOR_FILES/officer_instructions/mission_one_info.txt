@@ -13,8 +13,7 @@ here is the code that they should have run, for reference:
 
 mv awesome_group.txt group_name.txt
 cd ..
-sh get_mission_two.sh on mac/linux
-bash get_mission_two.sh on windows
+bash get_mission_two.sh
 
 once this is completed, give them the password to continue: onwards
 
