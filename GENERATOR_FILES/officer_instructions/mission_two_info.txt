@@ -1,0 +1,18 @@
+If 0:
+    echo "hello world, our name is <team name>"
+    cd endgame
+    ls
+
+If 1:
+    echo "hello world, our name is <team name>" >> name.txt
+    cd endgame
+    ls
+
+If 2:
+    touch hello-world-<team name>
+    cd endgame
+    ls
+
+
+The goal is at the end of the tunnel. cd into each of the tunnel directories then open the file.
+    

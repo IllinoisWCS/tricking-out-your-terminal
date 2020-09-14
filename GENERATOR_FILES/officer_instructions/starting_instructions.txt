@@ -1,0 +1,12 @@
+OFFICERS: START HERE
+
+If on mac or linux, use sh
+If on windows, use bash
+
+sh/bash start.sh
+bash <team color>/your_mission.sh
+rm -rf <team color> on mac/linux or rmdir on windows
+bash accept.sh
+cd mission_one
+ls on mac/linux or dir on windows
+cat instructions.txt

@@ -13,3 +13,11 @@ fi
 if [[ -d "mission_one" ]]; then
     rm -rf mission_one;
 fi
+
+if [[ -f "get_mission_two.sh" ]]; then
+    rm get_mission_two.sh
+fi
+
+if [[ -d "endgame" ]]; then
+    rm -rf endgame;
+fi
