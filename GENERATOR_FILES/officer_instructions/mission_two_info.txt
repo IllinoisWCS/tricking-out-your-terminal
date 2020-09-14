@@ -13,6 +13,7 @@ If 2:
     cd endgame
     ls
 
+When they've finished their script, they should check out the files in endgame/.
+If they cat endgame/info.txt, they'll find info on their final goal.
 
-The goal is at the end of the tunnel. cd into each of the tunnel directories then open the file.
-    
+The goal is at the end of the tunnel. They should cd into each of the tunnel directories, then the enemy HS, and open the file at the end.
