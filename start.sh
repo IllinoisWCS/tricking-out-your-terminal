@@ -21,13 +21,13 @@ function join_team {
     local dirname="${teamname}_team_hq";
     mkdir $dirname;
 
-    echo "begin your adventure running ${dirname}/your_mission.sh";
+    echo "begin your adventure by running ${dirname}/your_mission.sh";
 
     welcome_to_hq $dirname $teamname $enemy;
 }
 
-echo "hello, and welcome to wcs explorations' tricking our your terminal workshop.";
-echo "if at any point you messed up and need to start over from the beginning, run clean.sh";
+echo "hello, and welcome to wcs explorations' tricking our your terminal workshop!";
+echo "if at some point you mess up and need to start over, run clean.sh";
 echo "to begin, choose your team:";
 echo "0 - purple";
 echo "1 - red";
@@ -36,11 +36,11 @@ echo "2 - blue";
 read -n 1 -p "choice: " team;
 echo;
 
-if [ $team -eq 0 ]; then
+if [ "$team" = "0" ]; then
     join_team purple red
-elif [ $team -eq 1 ]; then
+elif [ "$team" = "1" ]; then
     join_team red blue
-elif [ $team -eq 2 ]; then
+elif [ "$team" = "2" ]; then
     join_team blue purple
 else
     echo "error, invalid choice.";

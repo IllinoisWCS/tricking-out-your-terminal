@@ -10,8 +10,8 @@ mkdir mission_one;
 cat GENERATOR_FILES/mission_one.txt >> mission_one/instructions.txt;
 
 echo "navigate into the mission_one directory" ;
-echo "find your instructions";
-echo "and display the file contents in the command line";
+echo "find your instructions text file";
+echo "and print the file contents in the command line";
 
 echo "this message will now self destruct";
 

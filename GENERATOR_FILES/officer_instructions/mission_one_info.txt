@@ -1,13 +1,20 @@
-the group's file should be in the format
+check that the group's file is of the format
 
 1. first commonality
 2. second commonality
 3. difference
 
-if this is the case, then give them the following instructions:
+if this is not the case, then try to help them resolve the issue. here is the code that they should have run, for reference:
+
+touch awesome_group.txt
+echo "1. first commonality" >> awesome_group.txt
+echo "2. second commonality" >> awesome_group.txt
+echo "3. difference" >> awesome_group.txt
+
+if the file is correct, give them the following instructions:
 
 rename the file to a nickname for your group (please check that this worked)
-then navigate back to the root directory for the repo and run get_mission_two.sh
+then have them navigate back to the root directory of the repo and run get_mission_two.sh
 
 here is the code that they should have run, for reference:
 
@@ -16,10 +23,3 @@ cd ..
 bash get_mission_two.sh
 
 once this is completed, give them the password to continue: onwards
-
-if this is not the case, then try to help them resolve the issue. here is the code that they should have run, for reference:
-
-touch awesome_group.txt
-echo "1. first commonality" >> awesome_group.txt
-echo "2. second commonality" >> awesome_group.txt
-echo "3. difference" >> awesome_group.txt
